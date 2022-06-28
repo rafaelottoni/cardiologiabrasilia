@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TESTE ENVIO FORMULARIO</title>
+</head>
+<body>
+  <div class="grid-5 fale-conosco">
+    <div class='form-content' id='form-send'>
+      <h2>Fale Conosco</h2>
+      <form id="fale-conosco" method="POST" action="enviar.php" class="formphp">
+        <input type="text" name="nome" id="nome" placeholder="Nome" required>
+        <input type="email" name="email" id="email" placeholder="E-mail" required>
+        <input type="text" name="telefone" id="telefone" placeholder="Telefone">
+        <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+        <input type="text" class="nao-aparece" name="leaveblank">
+        <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+        <input type="text" class="nao-aparece" name="dontchange" value="http://">
+        <textarea name="mensagem" id="mensagem" placeholder="Mensagem" required></textarea>
+        <button id="enviar" name="enviar" type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

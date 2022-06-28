@@ -1,0 +1,541 @@
+/* Estilos Gerais */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Noto Sans', "Arial", sans-serif;
+	font-size: 14pt;
+	line-height: 22pt;
+}
+
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+a.anchor {
+	display: block;
+	position: relative;
+	top: -120px;
+	visibility: hidden;
+}
+
+.short {
+	display: none;
+}
+
+/* Header */
+
+.header {
+	z-index: 99;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100px;
+	background: #2e4052;
+	padding: 10px 0;
+}
+
+.header_menu {
+	text-align: right;
+}
+
+.header_menu img {
+	display: inline-block;
+	padding-left: 3px;
+}
+
+.header_menu ul li {
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 23px;
+}
+
+
+.header_menu ul li a {
+	display: inline-block;
+	color: #FCF8F9;
+	text-decoration: none;
+	font-family: 'Varela Round', "Arial", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.header_menu ul li a:hover {
+	color: #E0BBA8;
+}
+
+/* Introdução */
+
+.introducao {
+	width: 100%;
+	height: 327px;
+	background: #FCF8F9;
+	margin-top: 100px;
+}
+
+/* A Clínica */
+
+.clinica {
+	width: 100%
+	height: 360px;
+	padding: 20px 0;
+}
+
+.clinica img {
+	display: inline-block;
+	padding-top: 45px;
+	margin-left: 8px;
+}
+
+.clinica h1 {
+	display: inline-block;
+	margin-top: 143px;
+	font-family: 'Varela Round', "Arial", sans-serif;
+	font-size: 30px;
+	line-height: 37px;
+	letter-spacing: .1em;
+	color: #852934;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.clinica p {
+	color: #852934;
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	text-align: justify;
+}
+
+/* Quem Somos */
+
+.quem-somos {
+	width: 100%;
+	height: 440px;
+	background: #1E4E71;
+	padding: 25px 0;
+}
+
+.quem-somos h1 {
+	font-family: 'Varela Round', "Arial", sans-serif;
+	font-size: 30px;
+	line-height: 37px;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	margin-top: -20px;
+}
+
+.quem-somos h1:after {
+	content: "";
+	display: block;
+	width: 270px;
+	height: 1px;
+	background: #FCF8F9;
+	margin: 10px auto 20px auto;
+}
+
+.quem-somos img {
+	display: inline-block;
+	margin-right: 7px;
+}
+
+.quem-somos a {
+	display: inline-block;
+	font-family: 'Noto Sans', "Arial", sans-serif;
+	color: #E0BBA8;
+	font-size: 12px;
+	line-height: 24px;
+	text-align: right;
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+.quem-somos a:hover {
+	text-decoration: underline;
+}
+
+.quem-somos p {
+	font-family: 'Noto Sans', "Arial", sans-serif;
+	margin-left: 10px;
+	color: #FCF8F9;
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 10px;
+	text-align: justify;
+}
+
+.quem-somos .foto {
+	margin-top: 25px;
+}
+
+.who a {
+	display: inline-block;
+	font-family: 'Noto Sans', "Arial", sans-serif;
+	color: #E0BBA8;
+	font-size: 14px;
+	line-height: 24px;
+	text-decoration: none;
+	margin-top: 10px;
+	padding: 0px;
+	text-align: left;
+}
+
+.who a:hover {
+	text-decoration: underline;
+}
+
+.hnav {
+	min-height: 310px;
+}
+
+/* Exames */
+
+.exames {
+	width: 100%
+	height: 360px;
+	padding: 25px 0;
+	text-align: center;
+}
+
+.exames img {
+	margin: 0 auto;
+}
+
+.exames ul {
+	height: 480px;
+}
+
+.exames ul li {
+	padding: 40px;
+}
+
+.exames h1 {
+	font-family: 'Varela Round', "Arial", sans-serif;
+	font-size: 30px;
+	line-height: 37px;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	text-align: center;
+	color: #852934;
+	margin-top: 5px;
+}
+
+.exames h1:after {
+	content: "";
+	display: block;
+	width: 270px;
+	height: 1px;
+	background: #852934;
+	margin: 10px auto;
+	margin-bottom: 40px;
+}
+
+.exames h3 {
+	font-family: 'Noto Sans', "Arial", sans-serif;
+	font-size: 20;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	margin: 10px auto 10px auto;
+	color: #852934;
+}
+
+.exames p {
+	font-family: 'Noto Sans', "Arial", sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #852934;
+	margin-bottom: 30px;
+}
+
+.exame-mobile {
+	display: none;
+}
+
+/* Contato */
+
+.contato {
+	width: 100%;
+	background: #2E4252;
+	padding: 45px 0;
+}
+
+.contato h1 {
+	display: block;
+	margin-top: 0px;
+	font-family: 'Varela Round', "Arial", sans-serif;
+	font-size: 30px;
+	line-height: 37px;
+	letter-spacing: .1em;
+	color: #FCF8F9;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: -10px;
+}
+
+.contato h1:after {
+	content: "";
+	display: block;
+	width: 270px;
+	height: 1px;
+	background: #FCF8F9;
+	margin: 10px auto 30px auto;
+}
+
+.contato h2 {
+	font-family: 'Noto Sans', "Arial", sans-serif;
+	color: #FCF8F9;
+	font-size: 18px;
+	line-height: 20px;
+	padding-bottom: 10px;
+
+}
+
+.fale-conosco input {
+	font-family: 'Noto Sans', "Arial", sans-serif;
+	color: #2E4252;
+	font-size: 14px;
+	line-height: 20px;
+	display: block;
+	width: 100%;
+	background: #FCF8F9;
+	border: none;
+	outline: none;
+	padding: 7px;
+	margin-bottom: 5px;
+
+}
+
+.fale-conosco textarea {
+	font-family: 'Noto Sans', "Arial", sans-serif;
+	color: #2E4252;
+	font-size: 14px;
+	line-height: 20px;
+	display: block;
+	width: 100%;
+	height: 85px;
+	background: #FCF8F9;
+	border: none;
+	outline: none;
+	padding: 7px;
+	margin-bottom: 10px;
+	resize: none;
+}
+
+.fale-conosco button {
+	background: none;
+	border: 3px solid #FCF8F9;
+	border-radius: 5px;
+	padding: 10px;
+	font-family: 'Varela Round', "Arial", sans-serif;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #FCF8F9;
+}
+
+.fale-conosco button:hover {
+	border-color: #E0BBA8;
+	color: #E0BBA8;
+}
+
+.contato_lista ul {
+	margin-top: 27px;
+	margin-left: 5px;
+}
+
+.contato_lista h3 {
+	display: inline-block;
+	font-family: 'Noto Sans', "Arial", sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FCF8F9;
+	margin-left: 12px;
+	margin-bottom: 15px;
+}
+
+.contato_lista img {
+	display: inline-block;
+}
+
+.contato a {
+	text-decoration: none;
+}
+
+.contato iframe {
+	display: inline-block;
+}
+
+/* Publicaçoes */
+
+.publicacoes {
+	width: 100%
+	height: 360px;
+	margin-top: 100px;
+	padding: 40px 0;
+}
+
+.publicacoes img {
+	display: block;
+	padding-top: 200px;
+	margin-left: 30px;
+}
+
+.publicacoes h1 {
+	display: inline-block;
+	margin-top: 300px;
+	font-family: 'Varela Round', "Arial", sans-serif;
+	font-size: 30px;
+	line-height: 37px;
+	letter-spacing: .1em;
+	color: #852934;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.publicacoes p {
+	color: #852934;
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 0px;
+	margin-bottom: 12px;
+	text-align: justify;
+}
+
+.publicacoes a {
+	border: 3px solid #852934;
+	border-radius: 5px;
+	padding: 10px;
+	font-family: 'Varela Round', "Arial", sans-serif;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #852934;
+	margin-left: 300px;
+}
+
+.publicacoes a:hover {
+	color: #2E4252;
+	border-color: #2E4252;
+}
+
+
+/* SLIDE */
+.js [data-slide] {
+  position: relative;
+}
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 900ms;
+  z-index: 1;
+}
+
+.js [data-slide-nav] {
+	display: block;
+	text-align: center;
+}
+
+.js [data-slide-nav] button {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 5px;
+	border: none;
+	padding: 0px;
+	border-radius: 6px;
+	text-indent: -100px;
+	overflow: hidden;
+	background: #000;
+	opacity: 0.3;
+}
+
+.js [data-slide-nav] button.active {
+	background: #E0BBA8;
+	opacity: 1;
+}
+
+/* ANIME */
+
+.js [data-anime] {
+	opacity: 0;
+}
+
+.js .fadeInDown {
+  transform: translate3d(0,-20px,0);
+}
+
+.js .fadeInUp {
+  transform: translate3d(0,20px,0);
+}
+
+.js .fadeInRight {
+  transform: translate3d(20px,0,0);
+}
+
+.js .fadeInLeft {
+  transform: translate3d(-20px,0,0);
+}
+
+.js .anime {
+	opacity: 1;
+  	transform: none;
+  	transition: transform .8s, opacity .8s;
+}
+
+#form-sucesso {
+	color: #31aa39;
+	font-family: 'Noto Sans', "Arial", sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#form-sucesso h2 {
+	font-family: 'Noto Sans', "Arial", sans-serif;
+	font-size: 14px;
+	line-height: 10px;
+	font-weight: 700;
+	color: #31aa39;
+	margin-top: 10px;
+}
+
+#form-erro {
+	font-family: 'Noto Sans', "Arial", sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #f64540;
+}
+
+#form-erro h2 {
+	font-family: 'Noto Sans', "Arial", sans-serif;
+	font-size: 14px;
+	line-height: 10px;
+	font-weight: 700;
+	color: #f64540;
+	margin-top: 10px;
+}
+
+.nao-aparece {
+	visibility: hidden;
+	height: 0px;
+	position: absolute;
+}
